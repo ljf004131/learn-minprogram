@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+   
+  },
+  "navigationBarTitleText": "小凯计算器",
+  "navigationBarBackgroundColor": "#ff5557",
+  "navigationBarTextStyle": "black"
+}

@@ -1,0 +1,17 @@
+<view>
+  <view class="pinmu">{{pingmu}}</view>
+  <button  size="mini" bindtap="qingchu">清除</button>
+  <button size="mini" bindtap="tuige">退格</button>
+  <view class="container">
+    <view class="shuzi">
+      <block wx:for="{{num}}" wx:key="index" >
+        <view class="shuz" bind:tap="click" data-item="{{item}}">{{item}}</view>
+      </block>
+    </view>
+    <view class="option">
+      <block wx:for="{{op}}" wx:key="index">
+        <view class="caozuo" bind:tap="click" data-item="{{item}}">{{item}}</view>
+      </block>
+    </view>
+  </view>
+</view>

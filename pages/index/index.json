@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "swip":"/components/swip/swip",
+    "title":"/components/title/title"
+  }
+}

@@ -1,0 +1,8 @@
+<swiper indicator-dots autoplay="ture">
+   <swiper-item>
+   <image src="../../src/104.png"></image></swiper-item>
+   <swiper-item>
+   <image src="../../src/104.png"></image></swiper-item>
+   <swiper-item>
+   <image src="../../src/104.png"></image></swiper-item>
+</swiper>

@@ -1,0 +1,4 @@
+<template name = "info">
+    <view>nihao标题</view>
+    <view>nihao内容</view>
+</template>

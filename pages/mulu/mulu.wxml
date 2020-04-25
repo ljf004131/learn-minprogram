@@ -1,0 +1,9 @@
+<!--pages/mulu/mulu.wxml-->
+<!-- <button size="mini" open-type="getUserInfo" bindgetuserinfo="getinfo">点击获取微信信息</button>
+<view wx:for="{{info}}">{{info[0].name}}{{item.city}}</view>
+<image mode="widthFix" src="{{info[0].pecture}}"></image> -->
+<!-- <open-data type="userNickName"></open-data> -->
+<!-- <open-data type="userAvatarUrl"/> -->
+<view>{{jss}}</view>
+<button size="mini" bind:tap="click">点击计算</button>
+<view>{{jg}}</view>

@@ -1,0 +1,58 @@
+.pinmu{
+  width: 100%;
+  height: 100px;
+  background-color: beige;
+  font-size: 30px;
+  text-align: end;
+  line-height: 150px
+
+}
+.qing{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  line-height: 50px;
+  background-color: red;
+  border-radius: 8px
+}
+.container{
+  display: flex;
+  width: 100%;
+  /* height: 380px */
+  
+}
+.shuzi{
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3
+
+}
+.shuz{
+   width: 32.3%;
+   font-size: 80rpx;
+   text-align: center;
+   line-height: 190rpx;
+   background-color: yellow;
+   border: 1px solid honeydew;
+   border-radius: 16rpx
+
+}
+.option{
+  display: flex;
+  flex-direction:column;
+  width: 25%;
+  flex: 1;
+  font-size: 120rpx;
+  border: 1px solid yellow
+}
+.caozuo{
+   width: 100%;
+   font-size: 80rpx;
+   text-align: center;
+   line-height: 180rpx;
+   flex: 1;
+   background-color: rgb(68, 0, 255);
+   border: 1px solid honeydew;
+   border-radius: 16rpx
+}

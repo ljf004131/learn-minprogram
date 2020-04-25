@@ -1,0 +1,14 @@
+<view class="title" >
+  <bolck class="a" wx:for="{{titles}}" wx:key="item" >
+ 
+<view class="{{current_index == index ? 'b':''}}"
+data-index="{{index}}" 
+data-item="{{item}}" 
+bind:tap="click">
+  <text>{{item}}</text>
+</view>
+
+  </bolck>
+
+</view>
+<view>当前计数：{{clu}}</view>
